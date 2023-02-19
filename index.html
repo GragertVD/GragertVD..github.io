@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interstar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__top">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="images/logo.png" alt="логотип">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#about">О нас</a></li>
+            <li class="menu__item"><a class="menu__link" href="#services">Услуги</a></li>
+            <li class="menu__item"><a class="menu__link" href="#register">Записаться</a></li>
+            <li class="menu__item"><a class="menu__link" href="#review">Отзовы</a></li>
+            <li class="menu__item"><a class="menu__link" href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1 class="header__title"><span>Парикмахерский салон</span> Интерстар</h1>
+        <a class="header__address" href="https://goo.gl/maps/zSmXg6VqjWijvJ4Z9" target="_blank">Индустриальный пр.,
+          17к3</a>
+        <p class="header__time-works">Ежедневно 10:00–21:00</p>
+        <a class="header__tell-btn" href="tel:88126832807">
+          <img class="header__phone-icon" src="images/phone-icon.png" alt="Звонок"></img>
+          <p class="header__phone-num">8-812-683-28-07</p>
+        </a>
+      </div>
+    </div>
+  </header>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about__inner">
+        <h2 class="about__title title">Почему мы?</h2>
+        <ul class="about__list">
+          <li class="about__item">
+            <h3 class="about__item-title">Репутация заработанная годами</h3>
+            Мы с 2010 года стараемся для вас и заслужили доверие тысяч наших клиентов.
+          </li>
+          <li class="about__item">
+            <h3 class="about__item-title">ПЕРСОНАЛЬНЫЙ</h3>
+            Наши специалисты всегда готовы порекомендовать то, что подойдет именно вам.
+          </li>
+          <li class="about__item">
+            <h3 class="about__item-title">Гарантия</h3>
+            Мы гарантируем, что вы останетесь
+            довольны результатами нашей работы.
+          </li>
+          <li class="about__item">
+            <h3 class="about__item-title">УДОБНОЕ МЕСТОПОЛОЖЕНИЕ</h3>
+            До нас легко можно добраться как на общественном транспорте, так и на автомобиле. Перед салоном есть большая
+            бесплатноя
+            парковка.
+          </li>
+          <li class="about__item">
+            <h3 class="about__item-title">ТОЛЬКО ОПЫТНЫЕ МАСТЕРА</h3>
+            Для нас очень важно, чтобы каждый наш клиент был доволен результатом нашей работы, поэтому у нас работают
+            только опытные
+            мастера
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="services__title title">Услуги</h2>
+      <div class="services__list">
+        <div class="services-item">
+          <h3 class="services-item__title">Мужская стрижка</h3>
+          <dl class="services-item__discr-list dl-open">
+            <dt>Под одну насадку</dt>
+            <dd>300 р</dd>
+            <dt>Под две насадки</dt>
+            <dd>500 р</dd>
+            <dt>Модельная</dt>
+            <dd>750 р</dd>
+          </dl>
+          <img class="arrow-expand" src="images/arrow-expand.svg" alt="expand">
+        </div>
+        <div class="services-item">
+          <h3 class="services-item__title">Женская стрижка</h3>
+          <dl class="services-item__discr-list">
+            <dt>Под одну насадку</dt>
+            <dd>300 р</dd>
+            <dt>Под две насадки</dt>
+            <dd>500 р</dd>
+            <dt>Модельная</dt>
+            <dd>750 р</dd>
+          </dl>
+          <img class="arrow-expand" src="images/arrow-expand.svg" alt="expand">
+        </div>
+        <div class="services-item">
+          <h3 class="services-item__title">Ноготочки</h3>
+          <dl class="services-item__discr-list">
+            <dt>Под одну насадку</dt>
+            <dd>300 р</dd>
+            <dt>Под две насадки</dt>
+            <dd>500 р</dd>
+            <dt>Модельная</dt>
+            <dd>750 р</dd>
+          </dl>
+          <img class="arrow-expand" src="images/arrow-expand.svg" alt="expand">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="register" class="register">
+    <div class="container">
+      <h2 class="register__title title">ЗАПИСЬ</h2>
+      <form class="register-form">
+        <h3 class="register-form__title">Запишись прямо сейчас</h3>
+        <label>Имя*
+          <input class="register-form__name register-form__input" type="text" name="name" placeholder="Введите имя">
+        </label>
+        <label>Телефон*
+          <input class="register-form__tel  register-form__input phone-mask" type="tel" name="tel"
+            placeholder="Телефон">
+        </label>
+        <label>Email
+          <input class="register-form__email register-form__input" type="email" name="email" placeholder="email">
+        </label>
+        <label>Комментарий
+          <textarea class="register-form__comment register-form__input" type="comment" name="comment"
+            placeholder="Комментарий"></textarea>
+        </label>
+        <button type="button" class="register-form__btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+  <section id="review" class="review">
+    <div class="container">
+      <h2 class="review__title title">Отзовы</h2>
+      <div class="review__slider-container">
+        <div class="review__box-button">
+          <div class="review__button-left">
+            <img src="images/arrow_right.png" alt="влево">
+          </div>
+          <div class="review__button-right">
+            <img src="images/arrow_right.png" alt="вправо">
+          </div>
+        </div>
+        <div class="swiper">
+          <div class="review__slider swiper-wrapper">
+            <div class="review__slid swiper-slide">
+              <img class="review__slide-img" src="images/review-avatar.jpg" alt="аватар">
+              <p class="review__slider-name">Довольный клиент</p>
+              <p class="review__slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nam
+                aliquam, possimus ut maiores assumenda temporibus sed consectetur quaerat unde suscipit odio, facilis
+                porro optio. Veniam aperiam laudantium magni vel?</p>
+            </div>
+            <div class="review__slid swiper-slide">
+              <img class="review__slide-img" src="images/review-avatar.jpg" alt="аватар">
+              <p class="review__slider-name">Довольный клиент</p>
+              <p class="review__slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nam
+                aliquam,
+                possimus ut maiores assumenda temporibus sed consectetur quaerat unde suscipit odio, facilis porro
+                optio. Veniam
+                aperiam laudantium magni vel?</p>
+            </div>
+            <div class="review__slid swiper-slide">
+              <img class="review__slide-img" src="images/review-avatar.jpg" alt="аватар">
+              <p class="review__slider-name">Довольный клиент</p>
+              <p class="review__slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nam
+                aliquam,
+                possimus ut maiores assumenda temporibus sed consectetur quaerat unde suscipit odio, facilis porro
+                optio. Veniam
+                aperiam laudantium magni vel?</p>
+            </div>
+            <div class="review__slid swiper-slide">
+              <img class="review__slide-img" src="images/review-avatar.jpg" alt="аватар">
+              <p class="review__slider-name">Довольный клиент</p>
+              <p class="review__slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nam
+                aliquam,
+                possimus ut maiores assumenda temporibus sed consectetur quaerat unde suscipit odio, facilis porro
+                optio. Veniam
+                aperiam laudantium magni vel?</p>
+            </div>
+            <div class="review__slid swiper-slide">
+              <img class="review__slide-img" src="images/review-avatar.jpg" alt="аватар">
+              <p class="review__slider-name">Довольный клиент</p>
+              <p class="review__slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nam
+                aliquam,
+                possimus ut maiores assumenda temporibus sed consectetur quaerat unde suscipit odio, facilis porro
+                optio. Veniam
+                aperiam laudantium magni vel?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contacts" class="contacts">
+    <div class="container">
+      <h2 class="title">Контакты</h2>
+      <div class="contacts__inner">
+        <h3 class="contacts__tel-title">Телефон:</h3>
+        <a class="contacts__tell-link" href="tel:88126832807">
+          <img class="contacts__tell-icon" src="images/phone-icon.png" alt="Звонок"></img>
+          <p class="contacts__tell-num">8-812-683-28-07</p>
+        </a>
+        <h3 class="contacts__email-title">Email:</h3>
+        <a class="contacts__email-link" href="mailto:gragertvd@gmail.com">
+          <img class="contacts__email-icon" src="images/email-icon.svg" alt="Звонок"></img>
+          <p class="contacts__email">gragertvd@gmail.com</p>
+        </a>
+        <a class="contacts__address-link" href="https://goo.gl/maps/zSmXg6VqjWijvJ4Z9" target="_blank">
+          <h3 class="contacts__address-title">Адресс</h3>
+          <p class="contacts__address">Индустриальный пр., 17, корп. 3, Санкт-Петербург, 195426</p>
+          <img class="contacts__address-img" src="images/map.JPG" alt="map">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
